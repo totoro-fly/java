@@ -2,7 +2,7 @@ package chapter.two.test;
 
 import java.util.Scanner;
 
-public class Test2_10 {
+public class Test2_01 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

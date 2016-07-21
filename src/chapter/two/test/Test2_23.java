@@ -7,14 +7,14 @@ public class Test2_23 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner input=new Scanner(System.in);
-		System.out.println("Enter the monthly saving amount and months:");
-		double savingAmount=input.nextDouble();
-		int months=input.nextInt();
-		double amount=0;
-		for(int i=0;i<months;i++){
-			amount=(savingAmount+amount)*(1+0.00417);
-		}
-		System.out.println("After the "+months+" months"+"the account value is $"+(int)(amount*100)/100.0);
+		System.out.println("Enter the driving distance:");
+		double distance=input.nextDouble();
+		System.out.println("Enter miles per gallon:");
+		double gallon=input.nextDouble();
+		System.out.println("Enter price per gallon:");
+		double price=input.nextDouble();
+		double totalCost=distance/gallon*price;
+		System.out.println("The cost drining is &"+(int)(totalCost*100)/100.0);
 	}
 
 }

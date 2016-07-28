@@ -2,7 +2,7 @@ package chapter.three;
 
 import java.util.Scanner;
 
-public class ComputeTax {
+public class ComputeTax3_5 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

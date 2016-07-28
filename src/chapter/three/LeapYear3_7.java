@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class LeapYear3_7 {
 
 	public static void main(String[] args) {
+		int book=233;
 		// TODO Auto-generated method stub
 		Scanner input=new Scanner(System.in);
 		System.out.println("Enter the year");

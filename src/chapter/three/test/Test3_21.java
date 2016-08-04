@@ -48,7 +48,7 @@ public class Test3_21 {
 			
 		}
 		System.out.println(week);
-		//0000
+		//00000
 
 	}
 

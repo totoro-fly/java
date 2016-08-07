@@ -15,7 +15,11 @@ public class Test3_32 {
 		double x2=input.nextDouble();
 		double y2=input.nextDouble();
 		if((x1-x0)*(y2-y0)-(x2-x0)*(y1-y0)>0)
-			
+			System.out.println("p2在线段左侧");
+		else if((x1-x0)*(y2-y0)-(x2-x0)*(y1-y0)==0)
+			System.out.println("p2在线段上");
+		else if((x1-x0)*(y2-y0)-(x2-x0)*(y1-y0)<0)
+			System.out.println("p2在线段右侧");
 		
 		
 		

@@ -39,6 +39,7 @@ public class Test4_20 {
 		int xp=s1.lastIndexOf("abc");
 		System.out.println(xp);
 		System.out.println(s1.lastIndexOf("me"));
+		//00
 		
 		
 

@@ -10,6 +10,7 @@ public class Test4_24 {
 		System.out.printf("%6s\n", "Java");
 		System.out.printf("%-6b%s\n", 1 > 2, "Java");
 		System.out.printf("%6b%-8s", 1 > 2, "Java");
+		//0
 	}
 
 }

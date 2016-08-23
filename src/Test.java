@@ -15,6 +15,7 @@ public class Test {
 		//System.out.println(y);
 		System.out.println(str);
 		System.out.println(str1);
+		double x=Math.random();
 	}
 
 }

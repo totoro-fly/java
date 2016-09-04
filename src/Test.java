@@ -18,9 +18,14 @@ public class Test {
 //		double x=Math.random();
  *
 */	
-	System.out.println((char)((int)'A'+25));	
-	//
-	
+	//System.out.println((char)((int)'A'+25));	
+		double number=1000;
+		double temp=0.1;
+		System.out.println(number);
+		while(number!=0){
+			number=number-temp;
+			System.out.println(number);
+		}
 	}
 
 }

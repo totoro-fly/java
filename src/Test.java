@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class Test {
 
+	private static final char[]  = null;
+
 	public static void main(String[] args) {
 		/*
 		 * // // TODO Auto-generated method stub // Scanner input=new
@@ -22,11 +24,17 @@ public class Test {
 		// System.out.println(number);
 //		// }
 //		System.out.println(1 % 3);
-		int sum=1;
-		for(int i=0;i<10000;i++)
-			for(int j=0;j<10000;j++)
-				for(int k=0;k<10000;k++)
-					System.out.println(sum++);
-	}
+//		int sum=1;
+//		for(int i=0;i<10000;i++)
+//			for(int j=0;j<10000;j++)
+//				for(int k=0;k<10000;k++)
+//					System.out.println(sum++);
+//		int sum=0;
+//		for(int i=1;i<=10;i++){
+//			sum+=i;
+//		}
+//		
+//		System.out.println();
+//	}
 
 }

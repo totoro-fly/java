@@ -34,5 +34,24 @@ public class Test {
 		//
 		// System.out.println();
 		// }
+		System.out.println(max(1, 2));
+		System.out.println(max(3.0, 2));
+		System.out.println(max(1, 2.0));
+		System.out.println(max(1.0, 2.0));
+
+	}
+
+	public static double max(double n1, int n2) {
+		if (n1 > n2)
+			return n1;
+		else
+			return n2;
+	}
+
+	public static double max(double n1, double n2) {
+		if (n1 > n2)
+			return n1;
+		else
+			return n2;
 	}
 }
